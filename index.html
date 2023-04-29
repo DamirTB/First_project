@@ -1,0 +1,15 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <h1> Nothing here to observe </h1>
+    <form method="POST">
+      {{ template_form.hidden_tag() }}
+      {{ template_form.name.label }}
+      {{ template_form.name() }}
+      {{ template_form.surname.label }}
+      {{ template_form.surname() }}
+      {{ template_form.submit() }}
+    </form>
+  </body>
+</html>

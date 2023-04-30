@@ -20,7 +20,9 @@ then type "flask shell"
 After wards a flask shell will pop out, and you need to write these commands
 
 ">>> from app import app, mydb"
+
 ">>> mydb.create_all()"
+
 ">>> exit()"
 
 #5 step 

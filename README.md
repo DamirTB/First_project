@@ -35,5 +35,5 @@ Try to run your application by writing the command *flask run* in your terminal
 Warning!
 
 Delete a following string in index.html 
-<link rel="stylesheet" href="{{url_for('static', filename='styles/css/bootstrap.min.css')}}"/>
+"<link rel="stylesheet" href="{{url_for('static', filename='styles/css/bootstrap.min.css')}}"/>"
 If you don't have bootstrap

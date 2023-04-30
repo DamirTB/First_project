@@ -31,3 +31,9 @@ After wards a flask shell will pop out, and you need to write these commands
 #5 step 
 
 Try to run your application by writing the command *flask run* in your terminal
+
+Warning!
+
+Delete a following string in index.html 
+<link rel="stylesheet" href="{{url_for('static', filename='styles/css/bootstrap.min.css')}}"/>
+If you don't have bootstrap

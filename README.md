@@ -8,8 +8,21 @@ Create a virtual environment in cmd by typing the command "py -3 -m venv env". I
 Activate your virtual environment by typing the command env\Scripts\activate
 
 #3 step
-Import Flask module, type the command "pip install Flask"
+Type those commands below in order to work with modules
+*pip install flask-sqlalchemy*
+*pip install WTForms*
+*pip install Flask-CLI* This one you need to activate your flask shell
 
 #4 step
 
-Still working on the instruction.
+Type into your terminal this command *SET FLASK_APP=app.py*
+then type "flask shell"
+After wards a flask shell will pop out, and you need to write these commands
+
+>>> from app import app, mydb
+>>> mydb.create_all()
+>>> exit()
+
+#5 step 
+
+Try to run your application by writing the command *flask run* in your terminal

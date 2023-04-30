@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/css/bootstrap.min.css')}}"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1> Unfinished </h1>
+      <form method="POST">
+        {{template_form.hidden_tag()}}
+        {{template_form.text.label}}
+        {{template_form.text()}}
+        {{template_form.submit()}}
+      </form>
+      {% for element in temp_list %}
+        {{element}}
+        <br>
+      {% endfor %}
+    </div>
+  </body>
+</html>

@@ -9,8 +9,11 @@ Activate your virtual environment by typing the command env\Scripts\activate
 
 #3 step
 Type those commands below in order to work with modules
+
 *pip install flask-sqlalchemy*
+
 *pip install WTForms*
+
 *pip install Flask-CLI* This one you need to activate your flask shell
 
 #4 step
